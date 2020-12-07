@@ -1,0 +1,72 @@
+header
+{
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, "Times New Roman", Times, Arial, Verdana, "Courier New", sans-serif;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+section 
+{
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, "Times New Roman", Times, Arial, Verdana, "Courier New", sans-serif;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+h1, h2, h3, h4, p
+{
+    padding: 20px 0;
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 28px;
+    text-align: center;
+} 
+
+footer
+{
+    display: block: 20px;
+    padding: 30px;
+    clear: both;
+    font-family: Georgia, "Times New Roman", Times, Arial, Verdana, "Courier New", sans-serif;
+    text-align: center;
+}
+
+.Page
+{
+    display: contents;
+}
+
+form
+{
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, "Times New Roman", Times, Arial, Verdana, "Courier New", sans-serif;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.container
+{
+    display: contents;
+    text-align: left:
+    
+}
+
+body
+{
+    background-color: indianred;
+    background-repeat: repeat;
+}
+
+footer 
+{
+    display: block;
+    padding: 10px;
+    margin: 40px;
+    background-color: deepskyblue;
+    border: 1px solid;
+    box-shadow: 10px 10px blue;
+                }
