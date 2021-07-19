@@ -39,7 +39,7 @@ else:
 question2 = (input(" 2.) What is the capital of the United States? "))
 answer2 = "DC"
 
-if question2 == answer2:
+if question2 == answer2.lower():
     print("2 for 2, we are on a roll here. Next question:")
     score = score + 100
 else:
@@ -64,7 +64,7 @@ else:
 question4 = (input(" 4.) Blue, Red, Yellow, or Green: What color is considered a 'Calm' color? "))
 answer4 = "Blue"
 
-if question4 == answer4:
+if question4 == answer4.lower():
     print("You are too mellow. Next Question:")
     score = score + 100
 else:
@@ -76,7 +76,7 @@ else:
 question5 = (input(" 5.) Ghostbusters or Goosebumps: Which had a legitimate business? "))
 answer5 = "Ghostbusters"
 
-if question5 == answer5:
+if question5 == answer5.lower():
     print("If there's something strange in your neighborhood, who you gonna call? The Next question: ")
     score = score + 100
 else:
@@ -88,7 +88,7 @@ else:
 question6 = (input(" 6.) What music artist was '2 legit 2 quit'? "))
 answer6 = "MC Hammer"
 
-if question6 == answer6:
+if question6 == answer6.lower():
     print("Go ahead and finish singing the song. You are on a roll, 6 for 6. Next Question:")
     score = score + 100
 else:
@@ -101,7 +101,7 @@ else:
 question7 = (input(" 7.) What was the name of the famous chocolate on the Nickelodeon show, 'Rugrats'? "))
 answer7 = "Reptar bar"
 
-if question7 == answer7:
+if question7 == answer7.lower():
     print("Stealing candy from Tommy, Chuckie, The Twins, and Angelica I see. Next Question:")
     score = score + 100
 else:
@@ -113,7 +113,7 @@ else:
 question8 = (input(" 8.) What month has '28' days? "))
 answer8 = "every month"
 
-if question8 == answer8:
+if question8 == answer8.lower():
     print(player1, ", you almost got tricked by a trick question. Next Question:")
     score = score + 100
 else:
@@ -125,7 +125,7 @@ else:
 question9 = (input(" 9.) Mary's Mom had 4 kids. Nickel, Dime, Penny. What is the name of the last kid? "))
 answer9 = "Mary"
 
-if question9 == answer9:
+if question9 == answer9.lower():
     print(player1, ", 9 for 9. Next Question:")
     score = score + 100
 else:
@@ -149,7 +149,7 @@ else:
 question11 = (input(" 11.) Which horoscope sign shares the same sexual position commonly known as '69'? "))
 answer11 = "Cancer"
 
-if question11 == answer11:
+if question11 == answer11.lower():
     print(player1, ", you are a freak in the sheets I see. Next Question:")
     score = score + 200
 else:
@@ -162,7 +162,7 @@ else:
 question12 = (input(" 12.) What is the rarest M&M color? "))
 answer12 = "Brown"
 
-if question12 == answer12:
+if question12 == answer12.lower():
     print("You my friend, eat too many junk food to know this answer. Next Question:")
     score = score + 200
 else:
@@ -175,7 +175,7 @@ question13 = (input(" 13.) 'Hendrick’s,' 'Larios,' and 'Seagram’s' are some 
                     "spirit? "))
 answer13 = "Gin"
 
-if question13 == answer13:
+if question13 == answer13.lower():
     print("You are such a drunk. The next question comes with a Breathalyzer Test. Next Question:")
     score = score + 200
 else:
@@ -212,7 +212,7 @@ else:
 question16 = (input(" 16.) Marines or Army: What branch of service did the actor ' Clint Eastwood' served? "))
 answer16 = "Army"
 
-if question16 == answer16:
+if question16 == answer16.lower():
     print("You Googled this answer unless you are a Military nut. I'm about to serve the Next Question:")
     score = score + 200
 else:
@@ -236,7 +236,7 @@ else:
 question18 = (input(" 18.) Ag, Au, Pt, or At: Which Atomic Symbol is the Symbol for Gold? "))
 answer18 = "Au"
 
-if question18 == answer18:
+if question18 == answer18.lower():
     print("Obviously you know the Periodic Table or you can spot fake Gold. Next Question:")
     score = score + 200
 else:
@@ -249,7 +249,7 @@ question19 = (input(" 19.) Bill Gates, Bill Nye, Bill Murray, Bill Walton, or Bi
                     "speak on Science? "))
 answer19 = "Bill Nye"
 
-if question19 == answer19:
+if question19 == answer19.lower():
     print("OBVIOUSLY!!! He's the SCIENCE GUY... DUH. Next Question:")
     score = score + 200
 else:
@@ -275,7 +275,7 @@ question21 = (input(" 21.) Bill Russell, Bill Withers, Bill Cobbs, or Bill Bella
                     "Player? "))
 answer21 = "Bill Bellamy"
 
-if question21 == answer21:
+if question21 == answer21.lower():
     print("Does your partner know you are a Cheater? Next Question:")
     score = score + 400
 else:
@@ -311,7 +311,7 @@ else:
 question24 = (input(" 23.) Lyndon B Johnson had 4 buttons installed in the Oval Office; Coffee, Tea, Coke, and what? "))
 answer24 = "Fresca"
 
-if question24 == answer24:
+if question24 == answer24.lower():
     print("Did you get him his drink to know this answer? Next Question:")
     score = score + 400
 else:
@@ -323,7 +323,7 @@ else:
 question25 = (input(" 25.) Eleanor, William, Beaver, or Dartmouth: What ship wasn't taken over by the Boston Tea Party?"))
 answer25 = "William"
 
-if question25 == answer25:
+if question25 == answer25.lower():
     print("I guess you didn't think I was talking about the Tea Party Republicans. Good for you. Next Question:")
     score = score + 400
 else:
@@ -335,7 +335,7 @@ else:
 question26 = (input(" 26.) Star Wars or Star Trek: LeVar Burton was a actor on which? "))
 answer26 = "Star Trek"
 
-if question26 == answer26:
+if question26 == answer26.lower():
     print("George Lucas must didn't like Reading Rainbow to cast him. Next Question:")
     score = score + 400
 else:
@@ -359,7 +359,7 @@ else:
 question28 = (input(" 28.) Coulrophobia is a far of what? "))
 answer28 = "Clowns"
 
-if question28 == answer28:
+if question28 == answer28.lower():
     print("Don't go to the Circus or a Rodeo. Next Question:")
     score = score + 400
 else:
@@ -372,7 +372,7 @@ else:
 question29 = (input(" 29.) What 1990s Martial Arts actor took his skills to do work out videos? "))
 answer29 = "Billy Blanks"
 
-if question29 == answer29:
+if question29 == answer29.lower():
     print("Look at you. Doing TAEBO and stuff. 29 for 29.")
     print("WOW!!! you are this smart to make it to the final question.", player1," you managed to score a total of: ",
           score, ". \n This last question is worth 1000 pts. ", player1, ", here is your Final Question of the game.")
