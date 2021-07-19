@@ -383,7 +383,7 @@ else:
     print("Well done. Your total score for playing is: ", score)
     sys.exit()
 
-question30 = (input(" 30.) The 1st form an Electronic email was sent when? "))
+question30 = (input(" 30.) The 1st form of an Electronic email was sent when? "))
 answer30 = "October 29, 1969"
 
 if question30 == answer30:
